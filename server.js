@@ -60,7 +60,7 @@ const Member = mongoose.model("Member", memberSchema);
 
 // Home page
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "index1.html"));
+    res.sendFile(path.join(__dirname, "index.html"));
 });
 
 // 1. Add Member
