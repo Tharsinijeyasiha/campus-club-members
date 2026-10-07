@@ -1,0 +1,25 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+  "start": "node server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tharsinijeyasiha/campus-club-members.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tharsinijeyasiha/campus-club-members/issues"
+  },
+  "homepage": "https://github.com/Tharsinijeyasiha/campus-club-members#readme",
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.11.0"
+  }
+}
